@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guess a Number</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Guess the Number!</h1>
+            <h2>Guess a number between 1 and 99 in seven attempts!</h2>
+        </header>
+        <br>
+        <div id="main">
+          Enter a guess: 
+          <input type="text" id="playerGuess" size="5">
+          <p>Attempts left: <span id="attemptsLeft">7</span></p>       
+          <button id="guessBtn"> Guess </button> 
+          <br>
+          <button id="resetBtn"> Reset </button>
+          <div id="feedback"></div>
+          <div> Previous Guesses:
+            <span id="guesses"></span>
+          </div>
+          <p>Wins: <span id="wins">0</span></p>
+            <p>Losses: <span id="losses">0</span></p>
+        </div>
+
+        <script src="js/script.js"></script>
+
+        <footer>
+            <p>&copy; 2026 Nettra Leandre. All rights reserved.</p>
+            <p>This site is for academic purposes only.</p>
+            <p>CST 336 Internet Programming.</p>
+            <img src="img/logo.jpg" alt="CSUMB Logo" class="logo">
+        </footer>
+    </body>
+</html>
